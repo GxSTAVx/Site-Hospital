@@ -1,0 +1,39 @@
+body{
+	font-family: Arial, sans serif;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form_cadastro{
+	height: auto;
+    padding: 20px;
+	border-radius: 5px;
+	border: solid 1px;
+	border-color: rgba(16, 16, 14, 0.125);
+}
+.form_div{
+	margin-bottom: 10px;
+}
+
+.label_input{
+	display: inline-block;
+	width: 100px;
+}
+
+.input{
+	border-radius: 5px;
+	border-color: rgba(16, 16, 14, 0.125);
+	width: 200px;
+}
+
+#button_apagar{
+	background-color: white;
+	border-radius: 5px;
+	border-color: white;
+	
+}
+
+span{
+	display: inline-block;
+}
