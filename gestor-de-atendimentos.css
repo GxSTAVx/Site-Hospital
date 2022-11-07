@@ -1,0 +1,38 @@
+body{
+    background-color: white;
+    font-family: Arial;
+}
+h1{
+    text-align: center;
+    letter-spacing: 2px;
+	color: black;
+}
+table{
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 2px;
+	border: solid 1px;
+	border-color: rgba(16, 16, 14, 0.125);
+}
+td:not(:first-child){
+    padding: 10px;
+}
+
+img{
+    display: block;
+    object-fit: fill;
+    width: 60px;
+    height: 60px;
+}
+
+#botaoadd{
+	background-color: white;
+	border-radius: 5px;
+	border-color: white;
+	margin-left: 100px;
+	margin-top: 20px;
+}
