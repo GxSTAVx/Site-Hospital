@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/ff59e6ce65.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+
+    <h1>SUS - GESTOR DE ATENDIMENTOS</h1>
+    <table>
+      <tr>
+        <th>Foto</th>
+        <th>Nome</th>
+        <th>CPF</th>
+		<th>Área</th>
+		<th>Doutor</th>
+        <th>Editar</th>
+        <th>Excluir</th>
+      </tr>
+
+      <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyNFHs1tGU4wd73HhFEuMQZzZl9HADWIgUEQ&usqp=CAU"></td>
+        <td>Vitória</td>
+        <td>039484759-12</td>
+		<td>Cardiologia</td>
+		<td>Dr. Marcos Neves</td>
+        <td><i class="fa-solid fa-pencil"></i></td>
+        <td onclick="deletarUsuario()"><i class="fa-solid fa-trash"></i></td>
+      </tr>
+
+      <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkD0CLc2pZhvTD4UzlFsHBNOLjE2nb0LkoEQ&usqp=CAU"></td>
+        <td>Eduarda</td>
+        <td>258.127.050-03</td>
+		<td>Dermatologia</td>
+		<td>Dra. Ana Vieira</td>
+        <td><i class="fa-solid fa-pencil"></i></td>
+        <td onclick="deletarUsuario()"><i class="fa-solid fa-trash"></i></td>
+      </tr>
+
+        <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjIPran1igLm6p4jCRL81BtmyiE3heJrba6w&usqp=CAU"></td>
+        <td>Lucas</td>
+        <td>437.791.130-90</td>
+		<td>Dermatologia</td>
+		<td>Dra. Ana Vieira</td>
+        <td><i class="fa-solid fa-pencil"></i></td>
+        <td onclick="deletarUsuario()"><i class="fa-solid fa-trash"></i></td>
+      </tr>
+	  
+	   <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWD8skKY-VHRjh2tAV1EH6gm-hk4cG2WxvFw&usqp=CAU"></td>
+        <td>Vinícius</td>
+        <td>828.339.170-40</td>
+		<td>Clínica Geral</td>
+		<td>Dr. Marcos Neves</td>
+        <td><i class="fa-solid fa-pencil"></i></td>
+        <td onclick="deletarUsuario()"><i class="fa-solid fa-trash"></i></td>
+      </tr>
+	  
+	   <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0DwPlM8k8fzS1KR4Lu1GI6lolxXUn4Tk4bw&usqp=CAU"></td>
+        <td>Victor</td>
+        <td>559.750.860-19</td>
+		<td>Cardiologia</td>
+		<td>Dr. Marcos Neves</td>
+        <td><i class="fa-solid fa-pencil"></i></td>
+        <td onclick="deletarUsuario()"><i class="fa-solid fa-trash"></i></td>
+      </tr>
+	  <tr>
+        <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqBWt1c-ddze7LimYMZbKTgy37Rvyv1HcuZA&usqp=CAU"></td>
+        <td>Helena</td>
+        <td>501.881.480-27</td>
+		<td>Radiologia</td>
+		<td>Dra. Juleia PeraRR</td>
+        <td><i class="fa-solid fa-pencil"></i></td>
+        <td onclick="deletarUsuario()"><i class="fa-solid fa-trash"></i></td>
+      </tr>
+
+    </table>
+	
+	<button id="botaoadd">
+		Adicionar Perfil 
+	</button>
+
+  </body>
+
+</html>
