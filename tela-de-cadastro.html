@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PORTAL DO ALUNO - CADASTRO</title>
+</head>
+
+<body>
+<form action="/" id="form-cadastro">
+
+<img style="width:300px; display: inline-block; margin-left: 150px;" src="https://odiariodemaringa.com.br/wp-content/uploads/2019/12/sus.png">
+
+<h1>Cadastro</h1>
+	
+	<div class="div-input">
+		<span class="label-input">Nome</span>
+		<input class="input-cadastro" type="text" required maxlength="60" placeholder="Nome Sobrenome">
+  	</div>
+	<div class="div-input">
+		<span class="label-input">Usuário (email):</span>
+		<input class="input-cadastro" type="text" required maxlength="60" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="meunome@mail.com">
+  	</div>
+    <div class="div-input">
+		<span class="label-input">Área de atendimento</span>
+    	<input class="input-cadastro" type="text" required minlength="6" placeholder="Mínimo 6 caracteres">
+    </div>
+	<div class="div-input">
+		<span class="label-input">CPF:</span>
+		<input class="input-cadastro" type="text" required pattern="\d{11}" placeholder="000.000.000-00">
+  	</div>
+	<div class="div-input">
+		<span class="label-input">Data Nascimento:</span>
+		<input class="input-cadastro" type="date" required min="1922-08-02">
+  	</div>
+	<div class="div-input">
+		<span class="label-input">Foto:</span>
+		<input class="input-cadastro input-foto" type="file" required data-max-size="2048">
+  	</div>
+	
+    <div>
+    	<button id="btn-cadastrar" type="submit">Cadastrar</button>
+    </div>
+	
+</form>
+
+</body>
+</html>
